@@ -1,8 +1,12 @@
 # SilverLine V0.01
 
-A very simple url checker that determines if a site is working or not, please note that a useragent hasn't been put into place so you may get false positives on some sites. This was just a small project I wanted to work on and may be adding more to it. 
+A fairly simplistic URL checker that hasn't got threading yet so may take awhile to go through lists so feel free to change the timeout to your liking. To use this efficently create two text files in the same folder as SilverLine.py and name these text files "sites.txt" & "working.txt" after that feel free to add as many URLS to the sites.txt list and run the program all the sites that work will be added to working.txt 
 
-How to start: 
-    Make 2 text files with the corresponding name, "sites.txt" "working.txt"
-    place the list of urls into the sites.txt and then run it 
-    sites that work will be placed into the working.txt
+
+Things to come:
+        -multithreading
+        -Useragent
+        -console way to determine timeout
+ 
+ These will be added eventually but my life is kinda busy and im going through some stuff rn but im trying to give back to the comunity that's helped me code so many things before
+ 
