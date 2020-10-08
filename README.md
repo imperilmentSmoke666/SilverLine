@@ -8,5 +8,4 @@ Things to come:
         -Useragent
         -console way to determine timeout
  
- These will be added eventually but my life is kinda busy and im going through some stuff rn but im trying to give back to the comunity that's helped me code so many things before
- 
+ These will be added eventually but my life is kinda busy and im going through some stuff rn but im trying to give back to the comunity that's helped me code so many things before.
