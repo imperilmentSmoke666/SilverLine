@@ -6,7 +6,7 @@ with open("sites.txt") as fp:
 
 for line in Lines:
     try:
-        response = requests.get(line)
+        response = requests.get(line, timeout=0.09)
 
         # If the response was successful, no Exception will be raised
         response.raise_for_status()
