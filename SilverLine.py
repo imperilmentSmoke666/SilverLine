@@ -14,7 +14,7 @@ for line in Lines:
 
         }
 
-        response = requests.get(line, timeout=2.5, headers=headers)
+        response = requests.get(line, timeout=5, headers=headers)
         response.raise_for_status()
     except HTTPError as http_err:
         print(f'HTTP error occurred: {http_err}')
